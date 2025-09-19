@@ -1,0 +1,123 @@
+body {
+  width: 100%;
+  background-color: #F3F3F3;
+  margin: auto;
+  padding: 0;
+  height: auto;
+}
+
+
+header {
+  width: 50%;
+  display: flex;
+  gap: 25px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+header img {
+  position: relative;
+  height: 80px;
+  width: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav li {
+  list-style: none;
+  font-family: "inter", sans-serif;
+  font-weight: semi-bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.slog {
+  color: #D2483D;
+  font-weight: semi-bold;
+}
+
+.slogan {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  line-height: 0.5;
+  margin-top: 2rem;
+  gap: 80px;
+}
+
+.slog_text {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+}
+
+.slog_text h1 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.barr {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.barr h2 {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+
+
+.Address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 2rem;
+}
+
+.call_to_action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  width: 100%;
+  height: 120px;
+  background-color: #D2483D;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.RESEAUX {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 98px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin-top: 2rem;
+}
