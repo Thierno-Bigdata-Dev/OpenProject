@@ -6,6 +6,13 @@ body {
   height: auto;
 }
 
+.Acc {
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #D2483D;
+  font-weight: bold;
+}
 
 header {
   width: 50%;
@@ -64,8 +71,12 @@ nav a {
   font-family: "Bebas Neue", sans-serif;
 }
 
-
-
+.slog_text p {
+  font-family: "inter", sans-serif;
+  font-weight: semi-bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 button {
   width: 150px;
@@ -84,7 +95,10 @@ button {
   font-family: "Bebas Neue", sans-serif;
 }
 
-
+.barr p {
+  font-family: "inter", sans-serif;
+  font-weight: semi-bold;
+}
 
 .Address {
   display: flex;
@@ -120,4 +134,36 @@ footer {
   height: 100px;
   background-color: black;
   margin-top: 2rem;
+}
+
+.footer {
+  display: flex;
+  position: relative;
+  top: 30px;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.footer p {
+  position: relative;
+  left: 40px;
+  font-family: "inter", sans-serif;
+  font-weight: semi-bold;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  opacity: 0.7;
+  line-height: 1.5;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  color: white;
+  gap: 10px;
+  position: relative;
+  right: 40px;
 }
